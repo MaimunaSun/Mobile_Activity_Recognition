@@ -1,0 +1,8 @@
+# Treat the notebook as Python so the bar looks professional
+*.ipynb linguist-language=Python
+
+# Force XML (layouts/configs) to appear in the stats
+*.xml linguist-detectable=true
+
+# Ensure Java is detected (even if it's a small percentage of total bytes)
+*.java linguist-detectable=true
